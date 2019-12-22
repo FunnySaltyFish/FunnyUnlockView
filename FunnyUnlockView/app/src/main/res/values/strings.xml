@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FunnyUnlockView</string>
+    <string name="hello_world">Author:FunnySaltyFish Github</string>
+	
+	<string name="unlock_failed">解锁失败</string>
+	<string name="unlock_successd">解锁成功</string>
+	<string name="code_set_finish">已设置密码，请再次输入以验证</string>
+	<string name="code_verify_succeed">密码验证成功！\n已设置密码为当前密码</string>
+	<string name="code_verify_fail">您当前输入的密码与之前不符，请重新输入以完成验证</string>
+	<string name="code_too_short">您当前输入密码过短，请重新输入</string>
+	<string name="code_too_long">您当前输入的密码过长，请重新输入</string>
+	<string name="pattern_to_set">以设置当前模式为输入密码模式</string>
+	<string name="patter_to_unlock">以设置当前模式为解锁模式</string>
+	<string name="toast_no_code">您当前还没有设置密码，请先设置一个</string>
+	<string name="toast_no_verify">请先完成验证操作，再继续</string>
+
+</resources>

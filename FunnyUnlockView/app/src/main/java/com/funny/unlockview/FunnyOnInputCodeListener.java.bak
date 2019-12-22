@@ -1,0 +1,12 @@
+package com.funny.unlockview;
+import java.util.List;
+
+public interface FunnyOnInputCodeListener
+{
+	void onFinish(List<Integer> code,int inputTimes);
+	//该回调会返回输入的密码和输入当前密码的次数
+	//即验证密码，还是输入密码
+	
+	void onFailed(List<Integer> code,int inputTimes);
+	
+}
